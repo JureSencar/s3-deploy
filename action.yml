@@ -29,7 +29,7 @@ inputs:
     description: 'Sets the Cache-Control: max-age=X header'
     required: false
   filesToInclude:
-    description: 'Allows for a comma delineated Regex String that matches files to include in the deployment'
+    description: 'Allows for a glob pattern that matches files to include in the deployment'
     required: false
 runs:
   using: 'node12'
